@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portifólio">
+    <meta name="keywords" content="portifolio, css, html, desenvolvedor">
+    <link rel="stylesheet" href="style.css">
+    <title>Portifólio</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+            <div class="logo">
+                <a href="home">
+                    <img src="imagens/logo-removebg-preview.png" alt="logo" width="450" height="150">
+                </a>
+            </div> <!--logo-->
+            <nav class="menu">  
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+            </nav> <!--menu-->
+            <div class="ctt-botton">
+                <a href="#">
+                    <button>Contato</button>
+                </a>
+            </div> <!--button ctt-->
+        </div> <!--cabecalho-->
+        
+    </header>
+    <section class="home" >
+        <div class="resumo">
+            <img src="imagens/foto-de-perfil.png" alt="foto de foto-de-perfil" width="600" height="600">
+            <div class="texto-home">
+            <p>Olá, meu nome é</p>
+            <p>Wellington Miguel</p>
+            <p>Como posso ajudá-lo(a) com seu site ou aplicativo?</p>
+            <div class="enviar-email">
+            <form >
+                <input type="email" id="email" name="email" placeholder="Envie seu e-mail" >
+                <input type="submit" value="Enviar">
+            </form>
+            </div>
+            </div>
+        </div>
+
+    </section>
+    
+    <hr> 
+    <section class="sobre" >
+        <h1>Sobre Mim</h1>
+        <P>Desenvolvedor de software mobile com um ano de estudo, tenho como principal ferramenta o framework Flutter, que permite o desenvolvimento de aplicações multiplataforma, aplicações web, mobile &#40Android e IOS&#41 e desktop. Além disso, tenho conhecimento em outras liguagens de programação como: Java, JavaScript, Python, C++, entre outros, que me permitem vislumbrar outras soluções para um excelente produto final.</P>
+    </section>
+    <hr> 
+    <section class="especialidades" >
+        <div>
+        <h1 id="text-especialidades">Especialidades</h1>
+        </div>
+        <div class="div-especialidades">
+        <h3 id="text-especialidades">Educação</h3>
+        <ul>
+            <li>Universidade Federal da Bahia - UFBA >> Sistemas da informação | 3º semestre</li>
+            <li> Cubos Academy | Finalizado 2022 >> Desenvolvimento de software em Flutter</li>
+            <li> Dio | Em andamento >> Desenvolvimento de mobile - Angular</li>
+            <li>SENAI CIMATEC | Finalizado >> Mecânica de precisão e Desenho industrial</li>
+        </ul>
+    </div>
+    <div class="div-especialidades">
+        <h3 id="text-especialidades">Habilidades</h3>
+        <ul class="list-habilidades">
+            <li>Flutter </li>
+            <li>Java</li>
+            <li>Kotlin</li>
+            <li>Windows</li> 
+            <li>Ubuntu</li>
+            <li>Android</li>
+            <li>HTML/CSS</li> 
+            <li>Git</li>
+            <li>Python</li>
+            <li>Mecânica</li>
+        </ul>
+        </div>
+        <div  class="div-especialidades">
+        <h3 id="text-especialidades" >Idiomas</h3>
+        <div class="idiomas">
+            <div class="idioma-card">
+                <img src="imagens/united-states.png" alt="Inglês" class="imagem-idioma">
+                <p>Básico</p>
+            </div>
+            <div class="idioma-card">
+                <img src="imagens/spain.png" alt="Espanhou" class="imagem-idioma">
+                <p>Intermediário</p>
+            </div>
+            
+        </div>
+        </div>
+    </section>
+    
+    <hr> 
+    <section class="projetos" >
+        <h1 id="text-especialidades">Projetos</h1>
+        <a href="https://github.com/Wellington-Miguel/desafio-final-cubos-academy" target="_blank" ><h3>Aplicativo mobile para cadastro de ambulantes</h3></a>
+        <div>
+            <img src="imagens/app1.png" alt="App1" width="200" height="400">
+            <img src="imagens/app2.png" alt="App2" width="200" height="400">
+            <img src="imagens/app3.png" alt="App3" width="200" height="400">
+        </div>
+        
+    </section>
+    <hr>
+    <section class="contato" >
+        <h1 id="text-especialidades">Contato</h1>
+        <form>
+            <input type="text" id="name" name="name" placeholder="Nome" >
+            <input type="text" id="empresa" name="empresa" placeholder="Empresal" >
+            <input type="text" id="assunto" name="assunto" placeholder="Assunto" >
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+            <input type="submit" value="Enviar">
+
+        </form>
+        
+    </section>
+
+</body>
+</html>
